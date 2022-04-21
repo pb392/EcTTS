@@ -1,0 +1,82 @@
+body {
+    background: rgb(77,114,152);
+    background: linear-gradient(135deg, rgba(77,114,152,1) 25%, rgba(182,36,79,1) 100%);
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(99,102,116);
+    background: linear-gradient(rgba(99,102,116,1), rgba(28,29,33,1));
+    border: 5px solid black;
+    text-align: center;
+    font-family: serif;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background: rgb(99,102,116);
+    background: linear-gradient(rgba(99,102,116,1), rgba(28,29,33,1));
+    font-size: 200%;
+
+}
+
+.navbar-brand {
+    font-size: 225%;
+    -webkit-text-stroke: 2px black;
+    font-weight: bolder;
+    transform: scale(1, 2);
+    margin: -10px 0px -15px 0px;
+}
+
+.nav-item {
+    border: 5px solid black;
+    text-align: center;
+    font-family: serif;
+    background-color: #1c1d21;
+    padding: 0px 10px;
+    width: 100%
+}
+
+
+
+#Project, #Merch, #Community, #News, #Contacts{
+    margin: 0 6px 0 6px;
+    font-size: 150%;
+}
+
+.About {
+    border: 5px solid #B6244F;
+    text-align: center;
+    font-family: Arial;
+    padding: 5% 30%;
+    width: 100%;
+}
+
+.dropdown-menu {
+    background-color: #bbb391;
+    border: 5px solid black;
+    font-size: 100%;
+}
+
+#info {
+    margin: 5% 30% 15px 30%;
+    padding: 20px;
+}
+
+#play {
+    margin: 15px 30% 15px 30%;
+    padding: 20px;
+}
+
+#support {
+    margin: 15px 30% 30px 30%;
+    padding: 20px;
+}
