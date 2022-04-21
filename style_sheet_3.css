@@ -1,7 +1,12 @@
+html {
+    min-height: 100%;
+}
+
 body {
     background: rgb(77,114,152);
     background: linear-gradient(135deg, rgba(77,114,152,1) 25%, rgba(182,36,79,1) 100%);
     margin: 0 auto;
+    height: 100%;
 }
 
 * {
