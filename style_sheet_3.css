@@ -14,10 +14,21 @@ header {
     border: 5px solid black;
     text-align: center;
     font-family: serif;
-    color: white;
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 10;
+}
+
+footer {
+    background: rgb(99,102,116);
+    background: linear-gradient(rgba(99,102,116,1), rgba(28,29,33,1));
+    border: 5px solid black;
+    text-align: center;
+    font-family: serif;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
     z-index: 10;
 }
 
