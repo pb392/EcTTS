@@ -76,9 +76,11 @@ footer {
 .About {
     border: 5px solid #B6244F;
     text-align: center;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5% 30%;
     width: 100%;
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 .dropdown-menu {
@@ -127,7 +129,7 @@ footer {
     float: right;
     background-color: rgba(187, 155, 176, 0.5);
     color: white;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px black;
 }
 
@@ -145,6 +147,39 @@ footer {
 .info {
     margin: 0 auto;
     color: white;
-    font-family: serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px black;
+}
+
+#Construction {
+    font-size: 450%;
+}
+
+#return {
+    font-size: 200%;
+}
+
+.Com_Carousel {
+    margin: 0 auto;
+}
+
+#comm_carousel {
+    margin: 30px 0;
+    padding: 40px;
+    background-color: rgba(182, 36, 79, 0.5);
+    border: 5px solid black;
+    width: 1240px;
+    height: 540px;
+}
+
+#QR_Code1 {
+    max-width: 37%;
+    max-height: 37%;
+    margin: 0 auto;
+}
+
+#QR_Code2 {
+    max-width: 37%;
+    max-height: 37%;
+    margin: 0 auto;
 }
