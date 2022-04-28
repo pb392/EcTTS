@@ -143,6 +143,8 @@ footer {
 }
 
 info {
+    margin: 0 auto;
+    color: white;
     font-family: serif;
     -webkit-text-stroke: 1px black;
 }
