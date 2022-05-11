@@ -195,7 +195,7 @@ footer {
     -webkit-text-stroke: 1px black;
 }
 
-.container {
+.container_ {
     display: flex;
     justify-content: space-between;
 }
