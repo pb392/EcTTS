@@ -13,6 +13,7 @@ body {
     border: 5px solid black;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 * {
@@ -129,8 +130,6 @@ footer {
     padding: 40px;
     background-color: rgba(182, 36, 79, 0.5);
     border: 5px solid black;
-    width: 1240px;
-    height: 540px;
 }
 
 #QR_Code1 {
